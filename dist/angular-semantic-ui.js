@@ -414,7 +414,7 @@ angular.module('angularify.semantic.modal', [])
             model: '=ngModel'
         },
         template: "<div class=\"ui dimmer page\" ng-class=\"{ active: model }\">" + 
-                    "<div class=\"ui test modal transition visible\" style=\"margin-top: -189px;\"  ng-transclude>" +
+                    "<div class=\"ui test modal small transition visible\" style=\"margin-top: -189px;\"  ng-transclude>" +
                     "</div>" +
                   "</div>",
         link: function (scope, element, attrs) {
